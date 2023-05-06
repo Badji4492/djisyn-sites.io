@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Site de reservation de taxi</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="image/logo-site.png" alt=""></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="index.html/#a-propos">A propos</a></li>
+                <li><a href="reservation.html">RÉSERVATIONS</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="burger">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </div>
+    </header>
+    <main>
+        <div class="contact-background">
+            <h1>Contact</h1>
+        </div>
+        <section class="section-contact1">
+            <div class="container-contact">
+                <img class="pict-contact" src="image/contact-picture.jpg" alt="">
+                <div class="txt-contact">
+                    <h3>Les meilleurs liens sont tissés <br>
+                        avec le contact</h3>
+                    <p>Vous avez une demande particulière ? <br><br> Un besoin d'informations complémentaires ? <br><br>
+                        N'hésitez pas à me contacter,<br> je vous répondrais dans les plus brefs délais . <br><br>
+                        A très vite ! <br><br>
+                        <span>Emre Özkan</span>
+                    </p>
+                </div>
+
+            </div>
+
+            <form class="contact-form" action="#" method="post">
+                <h3>Formulaire de contact</h3>
+                <br>
+                <div class="civi-cont">
+                    <div class="nm"><label for="NOM">Votre nom </label>
+                        <input type="text" name="NOM" id="NOM" required>
+                    </div>
+                    <div class="pnm"><label for="Prenom">Votre prénom</label>
+                        <input type="text" name="Prenom" id="Prenom" required>
+                    </div>
+                </div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+                <label for="Objet">Objet</label>
+                <input type="text" name="Objet" id="Objet" required>
+                <label for="Message">Votre message</label>
+                <textarea name="Message" id="Message" cols="30" rows="10"></textarea>
+                <div class="rgpd">
+                    <input type="checkbox" required>
+                    <p>En cochant cette case, vous acceptez que vos données <br>
+                        puissent être conservées par le site dans cadre de la demande.
+                    </p>
+                </div>
+                <input type="button" class="vald-cont-form" value="Valider">
+            </form>
+        </section>
+
+    </main>
+    <footer>
+        <p>
+            <a href="#"> Plan du site <span class="barre">|</span> </a>
+            <a href="#">Politique de confidentialité <span class="barre">|</span></a>
+            <a href="#">Contact</a>
+        </p>
+        <span class="bloc-sociaux"><img class="sociaux" src="image/insta.png" alt=""><img class="sociaux"
+                src="image/linkedin.png" alt=""><img class="sociaux" src="image/twitter.png" alt="">
+        </span>
+        <span class="copy"> <a href="https://djisyn.fr">© Djisyn 2023 Tous droits reservés</a></span>
+    </footer>
+    <script src="app.js"></script>
+</body>
+
+</html>

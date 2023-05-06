@@ -1,0 +1,889 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    align-items: center;
+    position: relative;
+}
+h1 {
+    color: #000;
+    text-align: center;
+    font-size: 65px;
+    position: relative;
+    z-index: 3;
+}
+
+/* Taille du logo */
+.logo a img {
+    width: 90px;
+    height: auto;
+}
+
+/* Menu de navigation */
+nav {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+ul li {
+    padding-right: 20px;
+}
+
+/* liens du menu */
+a {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #000;
+    text-decoration: none;
+}
+header nav ul li a{
+    font-weight: bold;
+}
+
+/* Subrillance des liens dans le menu */
+a:hover {
+    color: #b3790e;
+}
+
+footer {
+    width: 100%;
+    background: #000;
+    height: 70px;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+
+}
+
+footer a {
+    color: #FFF;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+
+.bloc-sociaux {
+    width: 80px;
+    display: flex;
+    justify-content: space-between;
+    height: 15px;
+    margin-left: 150px;
+
+}
+
+.sociaux {
+    width: 15px;
+}
+.copy{
+    padding-left: 150px;
+}
+
+/* ----------------------------------------------------bloc image reserver------------------------------------------- */
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url("image/background-accueil.png") no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+/* mise en valeur du mot "exceptionnelle" */
+.except{
+    color: #b3790e;
+    text-decoration: wavy;
+
+}
+
+/* bouton du bloc reserver */
+.intro button {
+    background-color: #b3790e;
+    color: #FFF;
+    padding: 10px;
+    border: transparent;
+    cursor: pointer;
+    width: 150px;
+    font-size: 20px;
+    border-radius: 3px;
+    position: relative;
+}
+
+/* subrillance du bouton dans le bloc reserver */
+.intro button:hover {
+    background-color: #000;
+    border-radius: 3px;
+}
+
+
+/*---------------------------------------------------------- section à propos------------------------------------------- */
+#a-propos {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+/* titre du bloc */
+h2 {
+    text-transform: uppercase;
+    border-top: 3px solid #b3790e;
+}
+
+/* bloc texte  */
+.txt {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+/* Colorisation du texte dans le bloc de texte */
+.nom {
+    font-size: 20px;
+    color: #b3790e;
+}
+
+/* taille du bloc du texte */
+#a-propos p {
+    width: 500px;
+}
+
+/* image du bloc à propos */
+
+#a-propos img {
+    width: 50%;
+    height: auto;
+}
+
+/* bouton contacter dans le bloc texte */
+
+#a-propos p button {
+    background-color: #000;
+    color: #FFF;
+    padding: 10px;
+    border: transparent;
+    cursor: pointer;
+    border-radius: 3px;
+
+}
+
+/* Surbrillance du bouton contacter dans le bloc texte */
+
+#a-propos p button:hover {
+    background-color: #b3790e;
+    border-radius: 3px;
+
+}
+
+/*------------------------------------------------------ section services------------------------------------------------- */
+#services {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* paragraphe d'introduction du bloc services */
+
+#services p {
+    text-align: center;
+}
+
+/* container qui regroupe les 4 blocs */
+
+.container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+/* Taille et bordure des 4 blocs */
+
+.bloc {
+    width: 22%;
+    height: 400px;
+    border: #b3790e 1px solid;
+}
+
+/* taille des images dans les blocs */
+
+.bloc img {
+    width: 100%;
+    height: auto;
+}
+
+/* titres dans les blocs */
+
+h4 {
+    text-transform: uppercase;
+    color: #b3790e;
+    text-align: center;
+    font-size: 12px;
+}
+
+/* bouton reservations dans mes services */
+
+#services button {
+    background-color: #000;
+    color: #FFF;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 40px;
+    border: transparent;
+    border-radius: 3px;
+}
+
+/* surbrillance du bouton reservation */
+
+#services button:hover {
+    background-color: #b3790e;
+    border-radius: 3px;
+
+}
+
+/*-------------------------------------------------- pages reservations------------------------------------------------  */
+
+/* section reservation bloc image */
+
+.resa {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background: url("image/background-reservation.png") no-repeat center center;
+    background-size: cover;
+}
+
+/* titre du bloc résa */
+
+.resa h1 {
+    font-size: 65px;
+    position: relative;
+}
+
+/* texte sous le titre du bloc */
+
+.resa p {
+    font-size: 30px;
+    position: relative;
+}
+
+/* Ajout de l'alignement et du style de couleur du h1 et p */
+.resa h1,
+.resa p {
+    color: #fff;
+    text-align: center;
+
+}
+
+/* section où se trouve les blocs images et le simulateur */
+.prix {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+/* Taille, alignement hauteur des blocs textes dans les encadrés */
+.prix p {
+    width: 100%;
+    text-align: center;
+    height: 110px;
+}
+
+/* bloc dans lequel se trouve le simulateur + du texte */
+.seirinite {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* container où se trouve les 2 blocs */
+.test {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height: 100%;
+    align-items: center;
+}
+
+/* bloc de gauche */
+.bloc-message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFF;
+    padding: 17px;
+    border: 1px #b3790e solid;
+}
+
+/* image du bloc de gauche */
+.bloc-message img {
+    width: 400px;
+    padding-top: 10px;
+}
+
+/*------------------ section reservation-------------------------- */
+
+
+.reservation {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+}
+
+/* texte d'introduction de la section reservation */
+.prix .intro-resa{
+ width: 550px;
+}
+
+/* bouton de reservation par téléphone */
+.appel-tel{
+    padding: 10px;
+    background-color: #000;
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+}
+.appel-tel:hover{
+    background-color: #b3790e;
+}
+
+/* formulaire de reservation */
+.form-resa {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #b3790e;
+    padding: 25px;
+}
+
+/* champ input du formulaire */
+.form-resa input {
+    border: #b3790e 1px solid;
+}
+
+/* champs civilité du formulaire */
+.civi {
+    text-align: center;
+}
+
+/* titre des champs du formulaire */
+.title {
+    color: #b3790e;
+    font-weight: bold;
+
+}
+.coor{ 
+        width: 100%;
+        padding-top: 20px;
+    }
+.coor .title{
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+
+/* bloc des adresses à renseigner dans le formulaire */
+.adress {
+
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* heure à renseigner dans le formulaire */
+.time {
+
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* bouton validation du formulaire */
+.vald-resa {
+    width: 50%;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #000;
+    color: #FFF;
+    cursor: pointer;
+}
+
+/* surbrillance du bouton de validation du formulaire */
+.vald-resa:hover {
+    background-color: #b3790e;
+}
+
+
+
+/* ---------------------------------------------------PAGE-CONTACT-------------------------------- */
+/* conteneur de gauche avec la photo et le texte */
+.contact-background {
+    width: 100%;
+    height: 400px;
+    background: url(image/contact-background.jpg) no-repeat center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.9;
+}
+.contact-background h1{
+    color: #000;
+}
+.section-contact1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.container-contact {
+    width: 707px;
+    height: 319px;
+    background-color: #000000;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+}
+
+/* photo dans le conteneur */
+.pict-contact {
+    width: 300px;
+    height: 270px;
+    padding-left: 18px;
+}
+
+/* bloc texte dans le conteneur */
+.txt-contact {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Paragraphe sous le titre du bloc texte */
+.txt-contact p {
+    text-align: center;
+    width: 290px;
+    color: #FFF;
+}
+
+/* signature dans le bloc texte */
+.txt-contact p span {
+    font-weight: bolder;
+}
+
+/* 
+formulaire de contact */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+}
+
+/* bloc civilité dans le formulaire de contact */
+.contact-form .civi-cont {
+    display: flex;
+    width: 100%;
+}
+
+/* bloc qui regroupe le label nom et l'input */
+.nm {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* bloc qui regroupe le label prenom et l'input */
+.pnm {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.contact-form label {
+    text-align: center;
+    width: 100%;
+    color: gray;
+}
+
+/* bloc rgpd du formulaire */
+.rgpd {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+/* titre */
+.container-contact h3,
+.contact-form h3 {
+    color: #b3790e;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* les inputs */
+#NOM {
+    width: 97%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#Prenom {
+    width: 95%;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#email {
+    text-align: center;
+}
+
+#Objet {
+    text-align: center;
+}
+
+#Message {
+    padding: 20px;
+}
+
+/* bouton validation du formulaire */
+.vald-cont-form {
+    padding: 10px;
+    background-color: #000;
+    color: #FFF;
+    text-align: center;
+    width: 20%;
+    border-radius: 3px;
+    border: none;
+}
+
+.vald-cont-form:hover {
+    background-color: #b3790e;
+}
+/* -------------------------------------------------------------------------RESPONSIVE------------------------------------------------------------ */
+@media screen and (max-width:900px) {
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*--------------------------------------------- Menu burger--------------------------------------------------- */
+
+    /* propriété du bouton burger */
+    .burger {
+        width: 40px;
+        height: 20px;
+        position: relative;
+        cursor: pointer;
+        display: block;
+    }
+
+    /* Espace entre les champs du menu */
+    ul li {
+        padding-right: 0px;
+    }
+
+    /* ligne du menu burger */
+    .line {
+        display: block;
+        width: 100%;
+        height: 3px;
+        background-color: #000;
+        position: absolute;
+        transform-origin: center;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    /* 1 ere ligne du menu burger */
+    .line:nth-child(1) {
+        top: 0;
+    }
+
+    /* 2ème ligne du menu burger   */
+    .line:nth-child(2) {
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    /* 3 ème ligne du menu burger */
+    .line:nth-child(3) {
+        bottom: 0;
+    }
+
+    /* style de la 1ère ligne du menu burger après clique */
+    .burger.open .line:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    /* style de la 2ème ligne du menu burger après clique */
+    .burger.open .line:nth-child(2) {
+        transform: scaleX(0);
+    }
+
+    /* style de la 3ème ligne du menu burger après clique */
+    .burger.open .line:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    /* menu  */
+    nav {
+        display: none;
+    }
+
+    /* menu ouvert après clique */
+    nav.open {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        order: 3;
+        width: 100%;
+    }
+
+    /* bloc du menu ouvert */
+    nav.open ul {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+    }
+
+    /* champs des liens du menu ouvert */
+    nav.open ul li {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* surbrillance des liens du menus ouvert */
+    nav.open ul li a:hover {
+        color: #b3790e;
+    }
+
+    /* marges du bouton burger */
+    .burger {
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+
+    /*----------------------------------------------------------------- Footer--------------------------------------------- */
+    footer{
+        height: auto;
+        flex-direction: column;
+    }
+    footer p{
+        display: flex;
+        flex-direction: column; 
+        width: 100%;
+        align-items: center;
+    }
+    /* barre de séparation entre les liens */
+    .barre{
+        display: none;
+    }
+    /* reseaux sociaux */
+    .bloc-sociaux{
+        width: 28%;
+        display: flex;
+        justify-content: space-around;
+        margin-left: 0;
+    }
+    .copy{
+        margin-top: 15px;
+        padding-left: 0;
+    }
+
+    /* ----------------------------------------------------------------------PAGE D'ACCUEIL----------------------------------------- */    
+    /* Taille de la section */
+    .intro{
+        min-height:601px;
+        height: auto;
+    }
+    /* Taille du titre */
+    .intro h1{
+        font-size: 32px;
+    }
+
+/* -------------------------------------------------------------------PAGE A PROPOS-----------------------------------------------------*/
+
+/* Taille de la section */
+#a-propos{
+    height: auto;
+    min-height: 601px;
+}
+
+/* disposition de la section */
+.txt{
+    flex-direction: column;
+}
+/* Taille de l'image */
+#a-propos img {
+	width: 100%;
+	height: auto;
+}
+/* Taille et alignement du texte */
+#a-propos p {
+	width: auto;
+	padding: 10px;
+}
+/* alignement du bouton */
+#a-propos p button {
+	margin-left: 50%;
+	transform: translateX(-50%);
+}
+/* -------------------------------------------------------------------------MES SERVICES-------------------------------------------------- */
+/* Taille de la section */
+#services {
+	width: 100%;
+	height: auto;
+	min-height: 601px;
+}
+/* Taille du container */
+.container {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+}
+/* Taille des blocs */
+.bloc{
+    width: 100%;
+    height: auto;
+}
+/* marge basse du bouton reservation */
+
+button.button-resa:nth-child(4){
+    margin-bottom: 40px;
+}
+
+/* ----------------------------------------------------------PAGE RESERVATIONS---------------------------------------------- */
+/* taille de la section */
+.resa{
+    height: auto;
+    min-height: 601px;
+}
+/* taile du titre */
+.resa h1{
+    font-size: 32px;
+}
+/* taille sous-titre */
+.resa p {
+    font-size: 22px;
+}
+/* bloc qui groupe 2 section */
+.test{
+    flex-direction: column;
+}
+
+/* Taille section reserver maintenant */
+.prix{
+    height: auto;
+    min-height: 601px;
+}
+/* taille h2 de la section reserver maintenant */
+.prix h2{
+    font-size: 20px;
+}
+/* largeur du bloc texte  */
+.prix .intro-resa{
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+/* taille de l'image du bloc message */
+.bloc-message img{
+    width: 100%;
+}
+/* bloc civilité dans le formulaire */
+.form-resa .civi{
+    display: block;
+    width: 100%;
+    text-align: center;
+
+}
+/* input du bloc civi */
+.civi > input:nth-child(5),.civi > input:nth-child(7),#phone, #mail,.adress > input:nth-child(5),.adress > input:nth-child(7){
+    width: 100%;
+}
+/* alignement des labels dans le blocs coordonnées */
+.coor{
+    text-align: center;
+}
+/* ------------------------------------------PAGE CONTACT-------------------------------------------------- */
+/* section contact */
+
+.section-contact1 {
+	display: flex;
+	 justify-content: none;
+	align-items: center;
+	height: auto;
+	/* min-height: 601px; */
+	flex-direction: column;
+}
+.pict-contact {
+	width: 94%;
+	/* height: 270px; */
+	/* padding-left: 18px; */
+	padding-top: 10px;
+    padding-left: 0;
+}
+
+/* bloc contact */
+.container-contact {
+	width: 96%;
+	height: auto;
+	background-color: #000000;
+	border-radius: 0;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 25px;
+	/* padding: 10px; */
+}
+/* formulaire */
+.contact-form {
+	display: flex;
+	flex-direction: column;
+	width: 91%;
+}
+.vald-cont-form{
+    margin-bottom: 25px;
+    width: 30%;
+}
+}
