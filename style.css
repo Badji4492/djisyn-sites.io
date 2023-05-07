@@ -774,6 +774,10 @@ formulaire de contact */
 	height: auto;
 	min-height: 601px;
 }
+/* taille du texte du bloc service */
+#services p{
+    width: 96%;
+}
 /* Taille du container */
 .container {
 	width: 100%;
