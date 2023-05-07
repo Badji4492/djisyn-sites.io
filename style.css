@@ -618,6 +618,10 @@ formulaire de contact */
     ul li {
         padding-right: 0px;
     }
+    /* taille des liens dans le menu */
+    ul li a {
+        font-size: 28px;
+    }
 
     /* ligne du menu burger */
     .line {
