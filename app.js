@@ -15,3 +15,19 @@ bouton.addEventListener('click',function(){
     window.location.href="reservation.html"; 
 })
 })
+// back to top
+const backToTopButton = document.querySelector('#back-to-top');
+
+window.addEventListener('scroll', () => {
+  if (window.pageYOffset > 200) {
+    backToTopButton.classList.add('show');
+    backToTopButton.classList.remove('hide');
+  } else {
+    backToTopButton.classList.add('hide');
+    backToTopButton.classList.remove('show');
+  }
+});
+
+backToTopButton.addEventListener('click', () => {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+});
