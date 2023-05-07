@@ -767,6 +767,11 @@ formulaire de contact */
 	margin-left: 50%;
 	transform: translateX(-50%);
 }
+/* taille du bouton contact */
+.button-contact{
+    width: 45%;
+    font-size: 18px;
+}
 /* -------------------------------------------------------------------------MES SERVICES-------------------------------------------------- */
 /* Taille de la section */
 #services {
@@ -793,6 +798,19 @@ formulaire de contact */
     margin-left: 50%;
     margin-bottom: 15px;
 }
+
+.bloc p{
+    margin-left: 11px;
+    transform: translateX(-5px);
+}
+
+/* Taille du bouton resa */
+button.button-resa:nth-child(4){
+
+    width: 45%;
+    font-size: 18px;
+}
+
 /* marge basse du bouton reservation */
 
 button.button-resa:nth-child(4){
@@ -859,6 +877,15 @@ button.button-resa:nth-child(4){
 /* alignement des labels dans le blocs coordonnées */
 .coor{
     text-align: center;
+}
+/* bloc date et heure */
+.time{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.time input{
+    width: 100%;
 }
 /* ------------------------------------------PAGE CONTACT-------------------------------------------------- */
 /* section contact */
