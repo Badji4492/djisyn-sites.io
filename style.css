@@ -960,4 +960,17 @@ button.button-resa:nth-child(4){
     margin-bottom: 25px;
     width: 30%;
 }
+/* Disposition du bloc civilité */
+.contact-form .civi-cont{
+    display: flex;
+    flex-direction: column;
+}
+/* taille des bloac nom et prénom */
+.civi-cont .nm, .civi-cont .pnm{
+    width: 100%;
+}
+/* taille des inputs nom et prenom */
+.civi-cont #NOM, .civi-cont #Prenom{
+    width: 98%;
+}
 }
