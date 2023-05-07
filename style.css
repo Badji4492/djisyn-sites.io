@@ -752,8 +752,10 @@ formulaire de contact */
 }
 /* Taille de l'image */
 #a-propos img {
-	width: 100%;
+	width: 96%;
 	height: auto;
+    margin-left: 50%;
+    transform: translateX(-50%);
 }
 /* Taille et alignement du texte */
 #a-propos p {
@@ -781,8 +783,11 @@ formulaire de contact */
 }
 /* Taille des blocs */
 .bloc{
-    width: 100%;
+    width: 96%;
     height: auto;
+    transform: translateX(-50%);
+    margin-left: 50%;
+    margin-bottom: 15px;
 }
 /* marge basse du bouton reservation */
 
