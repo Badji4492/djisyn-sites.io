@@ -803,6 +803,7 @@ button.button-resa:nth-child(4){
 /* taille sous-titre */
 .resa p {
     font-size: 22px;
+    width: 90%;
 }
 /* bloc qui groupe 2 section */
 .test{
@@ -820,11 +821,16 @@ button.button-resa:nth-child(4){
 }
 /* largeur du bloc texte  */
 .prix .intro-resa{
-    width: 100%;
+    width: 96%;
     padding-left: 0;
     padding-right: 0;
     margin-left: 0;
     margin-right: 0;
+    height: auto;
+}
+/* largeur du bloc message */
+.bloc-message{
+    width: 84%;
 }
 /* taille de l'image du bloc message */
 .bloc-message img{
