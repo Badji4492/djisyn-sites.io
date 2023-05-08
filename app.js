@@ -38,10 +38,10 @@ const sr = ScrollReveal();
 sr.reveal('#a-propos',{
   origin: top,
   distance:'350px',
-  duration: 2000
+  duration: 700
 });
 sr.reveal('#services',{
   origin: top,
   distance:'350px',
-  duration: 2000
+  duration: 700
 });
