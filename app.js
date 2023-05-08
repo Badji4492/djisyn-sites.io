@@ -34,14 +34,14 @@ backToTopButton.addEventListener('click', () => {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 });
 // animation section 
-const sr = ScrollReveal();
-sr.reveal('#a-propos',{
-  origin: top,
-  distance:'350px',
-  duration: 700
-});
-sr.reveal('#services',{
-  origin: top,
-  distance:'350px',
-  duration: 700
-});
+// const sr = ScrollReveal();
+// sr.reveal('#a-propos',{
+//   origin: top,
+//   distance:'350px',
+//   duration: 700
+// });
+// sr.reveal('#services',{
+//   origin: top,
+//   distance:'350px',
+//   duration: 700
+// });
